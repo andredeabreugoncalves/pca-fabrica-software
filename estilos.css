@@ -1,0 +1,343 @@
+h1 {
+	color: black;
+	font-family: sans-serif;
+	}
+
+h4  {
+	color: rgb(169, 215, 171);
+	font-family: sans-serif;
+	}
+#link02 {
+	color: rgb(76, 164, 213);
+	font-family: sans-serif;
+	font-size:18px;
+		}
+
+#link01 {
+	background-color: rgb(11, 117, 78);
+	border-radius:auto;
+	font-family: sans-serif;
+	font-size:25px;
+		}
+
+body
+#wrap {
+	width: 900px;
+	margin: auto;
+	}
+
+
+article p{
+	padding: 10px 0px;
+		}
+
+
+#texto02 {background-color: rgb(11, 117, 78);}
+
+#res {
+	width: auto;
+	height: 50px;
+	font-size:20px;
+	 }
+	 
+ #res01 {
+		width: auto;
+		height: 50px;
+		font-size:20px;
+		 }
+
+#res03
+{
+	width: auto;
+	height: 50px;
+	font-size:20px;
+	 }
+#resul01
+{
+	width: auto;
+	height: 50px;
+	font-size:20px;
+	 }
+#result03
+{
+	width: auto;
+	height: 50px;
+	font-size:20px;
+	 }
+#result05
+{
+	width: auto;
+	height: 50px;
+	font-size:20px;
+	 }
+
+#resul02	
+{
+		font-size:20px;
+	 }
+
+#imput {
+	width: auto;
+	height: 50px;
+	font-size:30px;
+
+}
+
+#resigual
+{
+	font-size:20px;
+ }
+
+ 
+ #resdiv
+ {
+	font-size:20px;
+ }
+
+
+#ressomatorio
+{
+	font-size:20px;
+ }
+
+a {
+	color: black; 
+	text-decoration: none;
+	font-size:18px;
+	}
+
+p {font-family: sans-serif;}
+
+#texto03 {
+		width: auto;
+		height: 10px;
+			}
+
+#texto01 {
+		width: auto;
+		height: 50px;
+			}
+
+#texto04
+		{ width: 500px;
+		height: auto;
+			}
+
+footer	{ 
+	width: 500px;
+    position: absolute;
+    top: 650px;
+    left: 30%;
+			}
+   			
+
+.formulario{
+    width: 400px;
+    padding: 30px;
+    border:1px solid #ccc;
+			}
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+			}
+.field{
+    width: 100%;
+    margin: 15px 0;
+			}
+.field label, .field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+			}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+			}
+input[type=text], input[type=email], textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+			}
+input#nao{
+    margin-left: 30px;
+			}
+
+
+ #landscape {
+    width: 250px;
+    position: absolute;
+    top: 140px;
+    left: 750px;
+		}
+		
+.caixa {
+	width: 100vw;
+	height: 40vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 80rem;
+	margin: 0 auto;
+	padding: 2rem;
+	   }
+
+		  
+.caixa > * {
+		width: 100%;		
+		}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+		  }
+		  
+.flex-center {
+	justify-content: center;
+	align-items: center;
+		 }
+
+/* BOTÃO */
+
+.btn {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  width: 20rem;
+  text-align: center;
+  border: 0.1rem solid #56a5eb;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #56a5eb;
+  background-color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.btn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+
+/* PAG.JOGO */
+
+.choice-container {
+	display: flex;
+	margin-bottom: 0.5rem;
+	width: 80%;
+	font-size: 1.8rem;
+	border: 0.1rem solid rgb(86, 165, 235, 0.25);
+	background-color: white;
+  }
+  
+  .choice-container:hover {
+	cursor: pointer;
+	box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+	transform: translateY(-0.1rem);
+	transition: transform 150ms;
+  }
+  
+  .choice-prefix {
+	padding: 1.5rem 2.5rem;
+	background-color: #56a5eb;
+	color: white;
+  }
+  
+  .choice-text {
+	padding: 1.5rem;
+  }
+
+  .choice-container {
+	display: flex;
+	margin-bottom: 0.1rem;
+	width: 100%;
+	font-size: 1.0rem;
+	border: 0.1rem solid rgb(86, 165, 235, 0.25);
+	background-color: white;
+  }
+  
+  .choice-container:hover {
+	cursor: pointer;
+	box-shadow: 1 1.4rem 0.4rem 0 rgba(86, 185, 235, 0.5);
+	transform: translateY(-0.1rem);
+	transition: transform 150ms;
+  }
+  
+  .choice-prefix {
+	padding: 1.1rem 1.5rem;
+	background-color: #56a5eb;
+	color: white;
+  }
+  
+  .choice-text {
+	padding: 1.0rem;
+	width: 100% ;
+  }
+
+  .correct {
+	background-color: #28a745;
+  }
+  
+  .incorrect {
+	background-color: #dc3545;
+  }
+
+  /* HUD */
+
+#hud {
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  .hud-prefix {
+	text-align: center;
+	font-size: 2rem;
+  }
+  
+  .hud-main-text {
+	text-align: center;
+  }
+
+  #progressBar {
+	width: 20rem;
+	height: 2;
+	border: 0.3rem solid #56a5eb;
+	margin-top: 1rem;
+  }
+  
+  #progressBarFull {
+	height: 2rem;
+	background-color: #56a5eb;
+	width: 0%;
+  }
+
+  /* FORMS */
+form {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  input {
+	margin-bottom: 1rem;
+	width: 10rem;
+	padding: 1rem;
+	font-size: 1rem;
+	border: none;
+	box-shadow: 0 0.1rem 1rem 0 rgba(86, 185, 235, 0.5);
+  }
+  
+  input::placeholder {
+	color: #aaa;
+  }
