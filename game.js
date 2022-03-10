@@ -108,7 +108,7 @@ getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem("mostRecentScore", score);
         //go to the end page
-        return window.location.assign('file:///home/andre/Documentos/ENVIAR/PCS%20-%20SITE%20HTML%20CSS%20GIT/AP3/end.html');
+        return window.location.assign('file:///andredeabreugoncalves/pca-int-app-web/blob/main/end.hmtl');
     }
     questionCounter++;
     progressText.innerText = `Questionário ${questionCounter}/${MAX_QUESTIONS}`;
