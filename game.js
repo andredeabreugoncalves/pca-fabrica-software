@@ -109,7 +109,7 @@ getNewQuestion = () => {
         localStorage.setItem("mostRecentScore", score);
         //go to the end page
         
-        return window.location.assign("https://andredeabreugoncalves.github.io/pca-int-app-web/end.html");
+        return window.location.assign("https://andredeabreugoncalves.github.io/pca-fabrica-software/end.html");
     }
     questionCounter++;
     progressText.innerText = `Questionário ${questionCounter}/${MAX_QUESTIONS}`;
